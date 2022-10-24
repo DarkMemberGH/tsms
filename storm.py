@@ -79,7 +79,7 @@ def zarin_plus(phone):
 
 def wall(phone):
     # wall api
-    wall_phone = {"phone": phone.split("+98")[1]}
+    wall_phone = {"phone": phone.split("+94")[1]}
     try:
         wall_request = requests.post("https://api.divar.ir/v5/auth/authenticate", json=wall_phone)
         if "SENT" in wall_request.text:
